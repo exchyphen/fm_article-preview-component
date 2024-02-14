@@ -1,23 +1,23 @@
 import "./shareModal.css";
 
+import IconFacebook from "/images/icon-facebook.svg";
+import IconPinterest from "/images/icon-pinterest.svg";
+import IconTwitter from "/images/icon-twitter.svg";
+
 const ShareModal = (props) => {
   return (
     <div className="modal-container">
       <div className="social-container">
         <div className="share-text">SHARE</div>
-        <img
-          className="fb-icon"
-          src="images/icon-facebook.svg"
-          alt="facebook icon"
-        ></img>
+        <img className="fb-icon" src={IconFacebook} alt="facebook icon"></img>
         <img
           className="twitter-icon"
-          src="images/icon-twitter.svg"
+          src={IconTwitter}
           alt="twitter icon"
         ></img>
         <img
           className="pinterest-icon"
-          src="images/icon-pinterest.svg"
+          src={IconPinterest}
           alt="pinterest icon"
         ></img>
       </div>

@@ -2,13 +2,17 @@ import { useState } from "react";
 import ShareModal from "./components/shareModal";
 import "./App.css";
 
+import HeroImg from "../images/drawers.jpg";
+import AuthorImg from "../images/avatar-michelle.jpg";
+import ShareIcon from "../images/icon-share.svg";
+
 function App() {
   const [display, setDisplay] = useState(false);
 
   return (
     <div className="main-container">
       <div className="inner-card">
-        <img className="hero-img" src="images/drawers.jpg" alt="hero img"></img>
+        <img className="hero-img" src={HeroImg} alt="hero img"></img>
         <div className="article-container">
           <div className="article-title">
             Shift the overall look and feel by adding these wonderful touches to
@@ -23,7 +27,7 @@ function App() {
             <div className="author-container">
               <img
                 className="author-img"
-                src="images/avatar-michelle.jpg"
+                src={AuthorImg}
                 alt="author img"
               ></img>
               <div className="author-text-container">
@@ -49,7 +53,7 @@ function App() {
               >
                 <img
                   className="share-img"
-                  src="./images/icon-share.svg"
+                  src={ShareIcon}
                   alt="share icon"
                 ></img>
               </div>
