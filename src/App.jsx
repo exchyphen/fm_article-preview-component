@@ -8,11 +8,7 @@ function App() {
   return (
     <div className="main-container">
       <div className="inner-card">
-        <img
-          className="hero-img"
-          src="./images/drawers.JPG"
-          alt="hero img"
-        ></img>
+        <img className="hero-img" src="images/drawers.jpg" alt="hero img"></img>
         <div className="article-container">
           <div className="article-title">
             Shift the overall look and feel by adding these wonderful touches to
@@ -27,7 +23,7 @@ function App() {
             <div className="author-container">
               <img
                 className="author-img"
-                src="./images/avatar-michelle.jpg"
+                src="images/avatar-michelle.jpg"
                 alt="author img"
               ></img>
               <div className="author-text-container">
@@ -42,7 +38,7 @@ function App() {
               >
                 <img
                   className="share-img share-img-active"
-                  src="./images/icon-share.svg"
+                  src="images/icon-share.svg"
                   alt="share icon"
                 ></img>
               </div>
