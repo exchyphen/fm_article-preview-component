@@ -42,7 +42,7 @@ function App() {
               >
                 <img
                   className="share-img share-img-active"
-                  src="images/icon-share.svg"
+                  src={ShareIcon}
                   alt="share icon"
                 ></img>
               </div>
